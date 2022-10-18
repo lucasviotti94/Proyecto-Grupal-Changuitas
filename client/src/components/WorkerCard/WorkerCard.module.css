@@ -1,0 +1,72 @@
+.conteiner {
+  display: flex;
+  width: 650px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 5px 5px 0px 0px rgba(255, 255, 255, 0.494);
+  transition: all 1s ease;
+}
+.conteiner:hover {
+  transform: translateY(5px);
+}
+
+.divImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  margin: 1%;
+}
+
+.divImg img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.divDescription {
+  width: 380px;
+  margin-top: 2%;
+}
+
+.divName h2 {
+  font-size: 1.5rem;
+  color: #fff;
+  border-bottom: 4px solid white;
+  width: fit-content;
+  filter: drop-shadow(2px 2px 1px #000000) drop-shadow(2px 2px 1px #000000)
+    drop-shadow(2px 2px 1px #000000);
+}
+
+.chip {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background: rgba(173, 173, 173, 0.35);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 1px 1px 0px 0px rgba(255, 255, 255, 0.694);
+}
+
+.information h3 {
+  font-size: 1.2rem;
+}
+
+.divRating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+}
+
+.perfilLink button {
+  margin-top: 10%;
+  margin-left: 14%;
+}
